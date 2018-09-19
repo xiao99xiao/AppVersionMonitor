@@ -20,5 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
+  s.swift_version = "4.2"
+
   s.source_files = 'Sources/AppVersionMonitor/**/*.swift'
 end
