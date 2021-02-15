@@ -28,7 +28,7 @@ let package = Package(
             exclude: [
                 "Info.plist"
             ]
-        )
+        ),
         .testTarget(
             name: "AppVersionMonitorTests",
             dependencies: ["AppVersionMonitor"],
