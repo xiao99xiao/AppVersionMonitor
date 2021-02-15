@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "AppVersionMonitor",
     platforms: [
-        .iOS(.v12),
-        .macOS(.v10_15)
+        .iOS(.v12)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
