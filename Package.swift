@@ -27,11 +27,13 @@ let package = Package(
             path: "Sources",
             exclude: [
                 "Info.plist"
-            ],
+            ]
+        )
         .testTarget(
             name: "AppVersionMonitorTests",
             dependencies: ["AppVersionMonitor"],
             path: "Tests/AppVersionMonitorTests",
-            exclude: ["Info.plist"],
+            exclude: ["Info.plist"]
+        )
     ]
 )
