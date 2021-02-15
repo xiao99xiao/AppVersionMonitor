@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppVersionMonitor"
+    name: "AppVersionMonitor",
     platforms: [
         .iOS(.v12),
         .macOS(.v10_15)
